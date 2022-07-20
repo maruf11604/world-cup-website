@@ -1,7 +1,10 @@
 /*@@@@@@@@@@@-----import google font-----@@@@@@@@@@ */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@700&family=Lobster&family=Montserrat:wght@700&family=Poppins:wght@400;500&display=swap');
 
-/* common and utility styles start */
+/*@@@@@@@@ 
+------------common and utility styles start------
+@@@@@@@@@@ */
+
 .body {
     font-family: 'Poppins', sans-serif;
 }
@@ -13,10 +16,15 @@
 }
 
 
-/* common and utility styles end */
+/*@@@@@@@@@
+-------------common and utility styles end--------
+@@@@@@@@@@@ */
 
 
-/* banner and top header style start */
+/* @@@@@@@@@
+--------------banner and top header style start-----
+@@@@@@@@@@@@@ */
+
 .banner {
     height: 646px;
     width: 1321px;
@@ -54,7 +62,9 @@
     margin-top: 30px;
 }
 
-/* hover and transition/animation fro button */
+/*@@@@@@@@@@
+----------hover and transition/animation fro button-------
+@@@@@@@@@@@@ */
 @keyframes anim {
     from {
         background-color: #DD0000;
@@ -89,12 +99,6 @@
 
 
 
-/* The element to apply the animation to */
-
-
-
-
-
 .fa-solid {
     color: #FFFFFF;
     margin-left: 10px;
@@ -113,9 +117,13 @@
 }
 
 
-/* banner and top header style start */
+/*@@@@@@@@@@@@
+------- banner and top header style end---------
+@@@@@@@@@@@@@ */
 
-/* middle sectio style start */
+/*@@@@@@@@@@@
+----------middle sectio style start------------
+@@@@@@@@@@@@@ */
 
 
 .middle {
@@ -155,6 +163,7 @@
     color: #FFFFFF;
 }
 
+/* ------------------side menu bar-------------- */
 .menu-btn {
     height: 64px;
     width: 252px;
@@ -223,6 +232,7 @@
 
 }
 
+/*--------------- tablet button only show gor tablet device----------- */
 .View-btn {
     height: 47px;
     width: 131px;
@@ -242,7 +252,13 @@
     display: none;
 }
 
-/* middle section style end */
+/*@@@@@@@@@@@@@
+---------- middle section style end---------
+@@@@@@@@@@@@@@@ */
+
+/*@@@@@@@@@@@@@
+---------- footersection style start---------
+@@@@@@@@@@@@@@@ */
 
 footer {
     position: relative;
@@ -328,15 +344,19 @@ hr {
 }
 
 
+/*@@@@@@@@@@@@@
+---------- footer section style end---------
+@@@@@@@@@@@@@@@ */
 
 
 
 
 
+/* @@@@@@@@@@--
+-----media quary section start------
+@@@@@@@@@@@@@ */
 
-/* media quary section start */
-
-/* mobile device */
+/* -------------mobile device------------ */
 
 @media only screen and (max-width:576px) {
 
@@ -409,7 +429,8 @@ hr {
 }
 
 
-/* tablet */
+/* --------------------tablet device ----------------*/
+
 @media only screen and (min-width:577px) and (max-width:992px) {
     .banner {
         flex-direction: row;
@@ -476,3 +497,7 @@ hr {
 
 
 }
+
+/* @@@@@@@@@@--
+-----media quary section end------
+@@@@@@@@@@@@@ */
